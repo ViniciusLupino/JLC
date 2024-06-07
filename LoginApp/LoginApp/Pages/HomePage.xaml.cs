@@ -13,15 +13,7 @@ public partial class HomePage : ContentPage
 
     private async void Login_Clicked(object sender, EventArgs e)
     {
-
-        if (_usuario == null)
-        {
-            await Navigation.PushAsync(new LoginPage());
-        }
-        else
-        {
-            await Navigation.PushAsync(new ContaPage());
-        }
+        await Navigation.PushAsync(new ContaPage());
     }
 
     private async void Servicos_Clicked(object sender, EventArgs e)

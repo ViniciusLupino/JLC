@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\SENAI3EM\\Desktop\\LoginApp\\LoginApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7541075A-2B45-4FA6-A8D8-7234920E609A}|LoginApp\\LoginApp.csproj|c:\\users\\senai3em\\desktop\\loginapp\\loginapp\\loginapp\\pages\\servicos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7541075A-2B45-4FA6-A8D8-7234920E609A}|LoginApp\\LoginApp.csproj|solutionrelative:loginapp\\pages\\servicos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7541075A-2B45-4FA6-A8D8-7234920E609A}|LoginApp\\LoginApp.csproj|c:\\users\\senai3em\\desktop\\loginapp\\loginapp\\loginapp\\pages\\contapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7541075A-2B45-4FA6-A8D8-7234920E609A}|LoginApp\\LoginApp.csproj|solutionrelative:loginapp\\pages\\contapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7541075A-2B45-4FA6-A8D8-7234920E609A}|LoginApp\\LoginApp.csproj|c:\\users\\senai3em\\desktop\\loginapp\\loginapp\\loginapp\\pages\\servicos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7541075A-2B45-4FA6-A8D8-7234920E609A}|LoginApp\\LoginApp.csproj|solutionrelative:loginapp\\pages\\servicos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7541075A-2B45-4FA6-A8D8-7234920E609A}|LoginApp\\LoginApp.csproj|c:\\users\\senai3em\\desktop\\loginapp\\loginapp\\loginapp\\pages\\contapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7541075A-2B45-4FA6-A8D8-7234920E609A}|LoginApp\\LoginApp.csproj|solutionrelative:loginapp\\pages\\contapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7541075A-2B45-4FA6-A8D8-7234920E609A}|LoginApp\\LoginApp.csproj|c:\\users\\senai3em\\desktop\\loginapp\\loginapp\\loginapp\\pages\\sedes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7541075A-2B45-4FA6-A8D8-7234920E609A}|LoginApp\\LoginApp.csproj|solutionrelative:loginapp\\pages\\sedes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7541075A-2B45-4FA6-A8D8-7234920E609A}|LoginApp\\LoginApp.csproj|c:\\users\\senai3em\\desktop\\loginapp\\loginapp\\loginapp\\pages\\sedes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7541075A-2B45-4FA6-A8D8-7234920E609A}|LoginApp\\LoginApp.csproj|solutionrelative:loginapp\\pages\\sedes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Servicos.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\LoginApp\\LoginApp\\LoginApp\\Pages\\Servicos.xaml.cs",
-              "RelativeDocumentMoniker": "LoginApp\\Pages\\Servicos.xaml.cs",
-              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\LoginApp\\LoginApp\\LoginApp\\Pages\\Servicos.xaml.cs",
-              "RelativeToolTip": "LoginApp\\Pages\\Servicos.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIAAAAAFAAAA",
+              "DocumentIndex": 0,
+              "Title": "ContaPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\LoginApp\\LoginApp\\LoginApp\\Pages\\ContaPage.xaml.cs",
+              "RelativeDocumentMoniker": "LoginApp\\Pages\\ContaPage.xaml.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\LoginApp\\LoginApp\\LoginApp\\Pages\\ContaPage.xaml.cs",
+              "RelativeToolTip": "LoginApp\\Pages\\ContaPage.xaml.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBIAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T13:44:03.088Z",
+              "WhenOpened": "2024-06-07T18:03:45.923Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Servicos.xaml",
-              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\LoginApp\\LoginApp\\LoginApp\\Pages\\Servicos.xaml",
-              "RelativeDocumentMoniker": "LoginApp\\Pages\\Servicos.xaml",
-              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\LoginApp\\LoginApp\\LoginApp\\Pages\\Servicos.xaml",
-              "RelativeToolTip": "LoginApp\\Pages\\Servicos.xaml",
-              "ViewState": "AQIAAMIAAAAAAAAAAAAAAO4AAAASAAAA",
+              "DocumentIndex": 1,
+              "Title": "ContaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\LoginApp\\LoginApp\\LoginApp\\Pages\\ContaPage.xaml",
+              "RelativeDocumentMoniker": "LoginApp\\Pages\\ContaPage.xaml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\LoginApp\\LoginApp\\LoginApp\\Pages\\ContaPage.xaml",
+              "RelativeToolTip": "LoginApp\\Pages\\ContaPage.xaml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGYAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-07T13:42:42.781Z",
+              "WhenOpened": "2024-06-07T18:03:18.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sedes.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\LoginApp\\LoginApp\\LoginApp\\Pages\\Sedes.xaml.cs",
+              "RelativeDocumentMoniker": "LoginApp\\Pages\\Sedes.xaml.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\LoginApp\\LoginApp\\LoginApp\\Pages\\Sedes.xaml.cs",
+              "RelativeToolTip": "LoginApp\\Pages\\Sedes.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwBoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:46:40.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sedes.xaml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\LoginApp\\LoginApp\\LoginApp\\Pages\\Sedes.xaml",
+              "RelativeDocumentMoniker": "LoginApp\\Pages\\Sedes.xaml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\LoginApp\\LoginApp\\LoginApp\\Pages\\Sedes.xaml",
+              "RelativeToolTip": "LoginApp\\Pages\\Sedes.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-07T17:46:32.69Z",
               "EditorCaption": ""
             }
           ]

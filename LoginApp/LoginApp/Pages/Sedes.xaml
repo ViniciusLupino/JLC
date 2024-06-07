@@ -1,12 +1,139 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LoginApp.Pages.Sedes"
-             Title="Sedes" NavigationPage.HasNavigationBar="False">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
-</ContentPage>
+             UnselectedTabColor="#532727"
+             SelectedTabColor="#FFEFD0"
+             BarBackground="#FFDB96">
+
+    <ContentPage Title="Sede" NavigationPage.HasNavigationBar="False" BackgroundColor="#FFEFD0">
+        <ScrollView>
+            <Grid Margin="0,0,0,0">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    
+                </Grid>
+
+                <Grid Row="2" BackgroundColor="#FFDB96" VerticalOptions="End">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Grid Column="0">
+                        <ImageButton x:Name="Servicos" Source="bank.svg" Clicked="Servicos_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="1">
+                        <ImageButton x:Name="Inicio" Source="house.svg" Clicked="Inicio_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="2">
+                        <ImageButton x:Name="Avaliacoes" Source="star.svg" Clicked="Avaliacoes_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="3">
+                        <ImageButton x:Name="Info" Source="info.svg" Clicked="Info_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="4">
+                        <ImageButton x:Name="Chat" Source="telephone.svg" Clicked="Chat_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                </Grid>
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+    
+    <ContentPage Title="Filiais" NavigationPage.HasNavigationBar="False" BackgroundColor="#FFEFD0">
+        <ScrollView>
+            <Grid Margin="0,0,0,0">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                   
+                </Grid>
+
+                <Grid Row="2" BackgroundColor="#FFDB96" VerticalOptions="End">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Column="0">
+                        <ImageButton x:Name="Servicos1" Source="bank.svg" Clicked="Servicos1_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="1">
+                        <ImageButton x:Name="Inicio1" Source="house.svg" Clicked="Inicio1_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="2">
+                        <ImageButton x:Name="Avaliacoes1" Source="star.svg" Clicked="Avaliacoes1_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="3">
+                        <ImageButton x:Name="Info1" Source="info.svg" Clicked="Info1_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="4">
+                        <ImageButton x:Name="Chat1" Source="telephone.svg" Clicked="Chat1_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                </Grid>
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>

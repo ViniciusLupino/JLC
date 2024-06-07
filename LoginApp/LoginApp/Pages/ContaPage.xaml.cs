@@ -16,17 +16,16 @@ public partial class ContaPage : ContentPage
 
     private async void btnSalvar_Clicked(object sender, EventArgs e)
     {
-        if (string.IsNullOrEmpty(_usuario.Email) && string.IsNullOrEmpty(_usuario.Senha) && string.IsNullOrEmpty(_usuario.Nome))
+        if (string.IsNullOrEmpty(_usuario.Nome) && string.IsNullOrEmpty(_usuario.Email) && string.IsNullOrEmpty(_usuario.Data) && string.IsNullOrEmpty(_usuario.Endereco) && string.IsNullOrEmpty(_usuario.Fone))
         {
-            await DisplayAlert("Erro", "Preencha todas as informações", "Fechar");
-            return;
+            await Navigation.PopAsync();
         }
         var Data = DateOnly.Parse(_usuario.Data);
         var cadastro = await App.BancoDados.UsuarioDataTable.SalvarUsuario(_usuario);
 
         if (cadastro > 0)
         {
-            await DisplayAlert("Sucesso", "Usuário cadastrado com sucesso", "Fechar");
+            await DisplayAlert("Sucesso", "Usuário atualizado com sucesso", "Fechar");
             await Navigation.PopAsync();
         }
     }
@@ -34,10 +33,5 @@ public partial class ContaPage : ContentPage
     private async void Voltar_Clicked(object sender, EventArgs e)
     {
         await Navigation.PopAsync();
-    }
-
-    private async void btnVoltar_Clicked(object sender, EventArgs e)
-    {
-        await Navigation.PushAsync(new HomePage());
     }
 }

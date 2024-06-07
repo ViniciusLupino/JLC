@@ -5,11 +5,10 @@
              Title="ContaPage" NavigationPage.HasNavigationBar="False">
     <VerticalStackLayout>
         <Grid>
-
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
             <Grid Row="0" Background="#FFDB96" Padding="8">
@@ -24,16 +23,13 @@
                 </Grid>
 
                 <Grid Margin="15,0,15,0" Column="0">
-                    <ImageButton x:Name="Voltar" Source="arrow_left.svg" Clicked="Voltar_Clicked" CornerRadius="16" WidthRequest="24" 
-          HorizontalOptions="Start" VerticalOptions="Center">
-                    </ImageButton>
+                    <ImageButton x:Name="Voltar" Source="arrow_left.svg" Clicked="Voltar_Clicked" CornerRadius="16" WidthRequest="24" HorizontalOptions="Start" VerticalOptions="Center"/>
                 </Grid>
             </Grid>
 
             <Grid Row="1" VerticalOptions="Center">
 
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
@@ -101,17 +97,12 @@
                     <Button Text="Salvar" TextColor="White" WidthRequest="250" x:Name="btnSalvar" Clicked="btnSalvar_Clicked" BackgroundColor="#76BDFF" HorizontalOptions="Center" FontAttributes="Bold"/>
                 </Grid>
 
-                <Grid Row="11" Margin="5">
-                    <Button Text="Voltar" TextColor="White" WidthRequest="250" x:Name="btnVoltar" Clicked="btnVoltar_Clicked" BackgroundColor="#76BDFF" HorizontalOptions="Center" FontAttributes="Bold"/>
-                </Grid>
-
             </Grid>
 
             <Grid Row="2">
-                <Label Background="Black"></Label>
+                <Label Background="Blue" Text="kjsgbsbfaksdb,afb" VerticalOptions="End"/>
             </Grid>
 
         </Grid>
     </VerticalStackLayout>
-
 </ContentPage>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginApp.Pages.ContaPage"
+             Title="ContaPage" NavigationPage.HasNavigationBar="False">
+    <VerticalStackLayout>
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid Row="0" Background="#FFDB96" Padding="8">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Column="1">
+                    <Label Text="Cadastrar" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Title" />
+                </Grid>
+
+                <Grid Margin="15,0,15,0" Column="0">
+                    <ImageButton x:Name="Voltar" Source="arrow_left.svg" Clicked="Voltar_Clicked" CornerRadius="16" WidthRequest="24" 
+          HorizontalOptions="Start" VerticalOptions="Center">
+                    </ImageButton>
+                </Grid>
+            </Grid>
+
+            <Grid Row="1" VerticalOptions="Center">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid Row="0" Margin="5">
+                    <Label x:Name="lblNome" Text="Nome" TextColor="Black" FontSize="Subtitle" HorizontalTextAlignment="Center"/>
+                </Grid>
+
+                <Grid Row="1" Margin="5">
+                    <Border Stroke="Black" WidthRequest="300" StrokeShape="RoundRectangle 8" Background="White">
+                        <Entry x:Name="txtNome" Text="{Binding Nome}" Placeholder="Digite seu Nome" Keyboard="Text" HorizontalTextAlignment="Center"/>
+                    </Border>
+                </Grid>
+
+                <Grid Row="2" Margin="5">
+                    <Label x:Name="lblEmail" Text="Email" TextColor="Black" FontSize="Subtitle" HorizontalTextAlignment="Center"/>
+                </Grid>
+
+                <Grid Row="3" Margin="5">
+                    <Border Stroke="Black" WidthRequest="300" StrokeShape="RoundRectangle 8" Background="White">
+                        <Entry x:Name="txtEmail" Text="{Binding Email}" Placeholder="Digite seu Email" Keyboard="Email" HorizontalTextAlignment="Center"/>
+                    </Border>
+                </Grid>
+
+                <Grid Row="4" Margin="5">
+                    <Label x:Name="lblData" Text="Data de nascimento" TextColor="Black" FontSize="Subtitle" HorizontalTextAlignment="Center"/>
+                </Grid>
+
+                <Grid Row="5" Margin="5">
+                    <Border Stroke="Black" WidthRequest="300" StrokeShape="RoundRectangle 8" Background="White">
+                        <Entry x:Name="txtData" Text="{Binding Data}" Placeholder="Digite sua data de nascimento" Keyboard="Default" HorizontalTextAlignment="Center"/>
+                    </Border>
+                </Grid>
+
+                <Grid Row="6" Margin="5">
+                    <Label x:Name="lblEndereco" Text="Endereço" TextColor="Black" FontSize="Subtitle" HorizontalTextAlignment="Center"/>
+                </Grid>
+
+                <Grid Row="7" Margin="5">
+                    <Border Stroke="Black" WidthRequest="300" StrokeShape="RoundRectangle 8" Background="White">
+                        <Entry x:Name="txtEndereco" Text="{Binding Endereco}" Placeholder="Digite seu endereço" Keyboard="Default" HorizontalTextAlignment="Center"/>
+                    </Border>
+                </Grid>
+
+                <Grid Row="8" Margin="5">
+                    <Label x:Name="lblFone" Text="Telefone" TextColor="Black" FontSize="Subtitle" HorizontalTextAlignment="Center"/>
+                </Grid>
+
+                <Grid Row="9" Margin="5">
+                    <Border Stroke="Black" WidthRequest="300" StrokeShape="RoundRectangle 8" Background="White">
+                        <Entry x:Name="txtFone" Text="{Binding Fone}" Placeholder="(XX) XXXXX-XXXX" Keyboard="Telephone" HorizontalTextAlignment="Center"/>
+                    </Border>
+                </Grid>
+
+                <Grid Row="10" Margin="5">
+                    <Button Text="Salvar" TextColor="White" WidthRequest="250" x:Name="btnSalvar" Clicked="btnSalvar_Clicked" BackgroundColor="#76BDFF" HorizontalOptions="Center" FontAttributes="Bold"/>
+                </Grid>
+
+                <Grid Row="11" Margin="5">
+                    <Button Text="Voltar" TextColor="White" WidthRequest="250" x:Name="btnVoltar" Clicked="btnVoltar_Clicked" BackgroundColor="#76BDFF" HorizontalOptions="Center" FontAttributes="Bold"/>
+                </Grid>
+
+            </Grid>
+
+            <Grid Row="2">
+                <Label Background="Black"></Label>
+            </Grid>
+
+        </Grid>
+    </VerticalStackLayout>
+
+</ContentPage>

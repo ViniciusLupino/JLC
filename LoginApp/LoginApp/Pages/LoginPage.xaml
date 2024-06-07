@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginApp.Pages.LoginPage"
+             Title="LoginPage"
+             BackgroundColor="#FFEFD0"
+             NavigationPage.HasNavigationBar="False">
+
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid Row="0" Background="#FFDB96" Padding="8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Column="1">
+                <Label Text="Login" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold"/>
+            </Grid>
+            
+            <Grid Margin="15,0,15,0" Column="0">
+                <ImageButton x:Name="Voltar" Source="arrow_left.svg" Clicked="Voltar_Clicked" CornerRadius="16" WidthRequest="24" 
+                 HorizontalOptions="Start" VerticalOptions="Center">
+                </ImageButton>
+            </Grid>
+        </Grid>
+
+        <Grid Row="1" VerticalOptions="Center">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid Row="1" Margin="5">
+                <Label x:Name="lblEmail" Text="Email" TextColor="Black" FontSize="Subtitle" HorizontalOptions="Center"/>
+            </Grid>
+
+            <Grid Row="2" Margin="5">
+                <Border Stroke="Black" WidthRequest="300" StrokeShape="RoundRectangle 8" Background="White">
+                    <Entry x:Name="txtEmail" Placeholder="Digite seu Email" Keyboard="Email" HorizontalTextAlignment="Center"/>
+                </Border>
+            </Grid>
+
+            <Grid Row="3" Margin="5">
+                <Label x:Name="lblSenha" FontSize="Subtitle" Text="Senha" TextColor="Black" HorizontalOptions="Center"/>
+            </Grid>
+
+            <Grid Row="4" Margin="5">
+                <Border Stroke="Black" WidthRequest="300" StrokeShape="RoundRectangle 8" Background="White">
+                    <Entry Placeholder="Digite sua Senha" x:Name="txtSenha" IsPassword="True" ClearButtonVisibility="WhileEditing" HorizontalTextAlignment="Center"/>
+                </Border>
+            </Grid>
+
+            <Grid Row="5" Margin="5">
+                <Button Text="Entrar" TextColor="White" WidthRequest="250" x:Name="btnEntrar" Clicked="btnEntrar_Clicked" BackgroundColor="#76BDFF" HorizontalOptions="Center" FontAttributes="Bold"/>
+            </Grid>
+
+            <Grid Row="6" Margin="5">
+                <Button Text="Registrar" TextColor="White" WidthRequest="250" x:Name="btnRegistrar" Clicked="btnRegistrar_Clicked" BackgroundColor="#76BDFF" HorizontalOptions="Center" FontAttributes="Bold"/>
+            </Grid>
+
+        </Grid>
+
+        <Grid Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+    </Grid>
+</ContentPage>

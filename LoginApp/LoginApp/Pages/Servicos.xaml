@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginApp.Pages.Servicos"
+             UnselectedTabColor="#532727"
+             SelectedTabColor="#FFEFD0"
+             BarBackground="#FFDB96">
+
+    <ContentPage Title="Fretes" NavigationPage.HasNavigationBar="False" BackgroundColor="#FFEFD0">
+        <ScrollView>
+            <Grid Margin="0,0,0,0">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Row="0">
+                        <Image Source="caminhao_frete.jpg" Margin="10"/>
+                    </Grid>
+
+                    <Grid Row="1" HorizontalOptions="Center">
+                        <Label Text="Realizamos diversos tipos de fretes para inúmeros locais do estado de São Paulo. Utilizamos carretas para o transporte do eucalipto para o cliente." Margin="20"/>
+                    </Grid>
+                    <Grid Row="2" HorizontalOptions="Center">
+                        <Label Text="Nossos motoristas passam por um rígido processo seletivo para que a carga chegue em segurança ao consumidor final."  Margin="20, 0, 20, 0"/>
+                    </Grid>
+                    <Grid Row="3" VerticalOptions="Center" HorizontalOptions="Center">
+                        <Button Text="Faça seu pedido" TextColor="White" WidthRequest="250" x:Name="btnEncomenda" Clicked="btnEncomenda_Clicked" BackgroundColor="#76BDFF" HorizontalOptions="Center" FontAttributes="Bold" Margin="10"/>
+                    </Grid>
+                </Grid>
+
+                <Grid Row="2" BackgroundColor="#FFDB96" VerticalOptions="End">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Column="0">
+                        <ImageButton x:Name="Inicio" Source="house.svg" Clicked="Inicio_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="1">
+                        <ImageButton x:Name="Locais" Source="bank.svg" Clicked="Locais_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="2">
+                        <ImageButton x:Name="Avaliacoes" Source="star.svg" Clicked="Avaliacoes_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="3">
+                        <ImageButton x:Name="Info" Source="info.svg" Clicked="Info_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="4">
+                        <ImageButton x:Name="Chat" Source="telephone.svg" Clicked="Chat_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                </Grid>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Cortes" NavigationPage.HasNavigationBar="False" BackgroundColor="#FFEFD0">
+        <ScrollView>
+            <Grid Margin="0,0,0,0">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Row="0">
+                        <Image Source="corte.jpg" Margin="10"/>
+                    </Grid>
+
+                    <Grid Row="1" HorizontalOptions="Center">
+                        <Label Text="Realizamos diversos tipos de fretes para inúmeros locais do estado de São Paulo. Utilizamos carretas para o transporte do eucalipto para o cliente." Margin="20"/>
+                    </Grid>
+                    <Grid Row="2" HorizontalOptions="Center">
+                        <Label Text="Nossos motoristas passam por um rígido processo seletivo para que a carga chegue em segurança ao consumidor final."  Margin="20, 0, 20, 0"/>
+                    </Grid>
+                    <Grid Row="3" VerticalOptions="Center" HorizontalOptions="Center">
+                        <Button Text="Faça seu pedido" TextColor="White" WidthRequest="250" x:Name="btnEncomenda1" Clicked="btnEncomenda1_Clicked" BackgroundColor="#76BDFF" HorizontalOptions="Center" FontAttributes="Bold" Margin="10"/>
+                    </Grid>
+                </Grid>
+
+                <Grid Row="2" BackgroundColor="#FFDB96" VerticalOptions="End">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Column="0">
+                        <ImageButton x:Name="Inicio1" Source="house.svg" Clicked="Inicio1_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="1">
+                        <ImageButton x:Name="Locais1" Source="bank.svg" Clicked="Locais1_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="2">
+                        <ImageButton x:Name="Avaliacoes1" Source="star.svg" Clicked="Avaliacoes1_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="3">
+                        <ImageButton x:Name="Info1" Source="info.svg" Clicked="Info1_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="4">
+                        <ImageButton x:Name="Chat1" Source="telephone.svg" Clicked="Chat1_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                </Grid>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Plantio" NavigationPage.HasNavigationBar="False" BackgroundColor="#FFEFD0">
+        <ScrollView>
+            <Grid Margin="0,0,0,0">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Row="0">
+                        <Image Source="plantacao_eucalipto.jpg" Margin="10" />
+                    </Grid>
+
+                    <Grid Row="1" HorizontalOptions="Center">
+                        <Label Text="Realizamos diversos tipos de fretes para inúmeros locais do estado de São Paulo. Utilizamos carretas para o transporte do eucalipto para o cliente." Margin="20"/>
+                    </Grid>
+                    <Grid Row="2" HorizontalOptions="Center">
+                        <Label Text="Nossos motoristas passam por um rígido processo seletivo para que a carga chegue em segurança ao consumidor final."  Margin="20, 0, 20, 0"/>
+                    </Grid>
+                    <Grid Row="3" VerticalOptions="Center" HorizontalOptions="Center">
+                        <Button Text="Faça seu pedido" TextColor="White" WidthRequest="250" x:Name="btnEncomenda2" Clicked="btnEncomenda2_Clicked" BackgroundColor="#76BDFF" HorizontalOptions="Center" FontAttributes="Bold" Margin="10"/>
+                    </Grid>
+                </Grid>
+
+                <Grid Row="2" BackgroundColor="#FFDB96" VerticalOptions="End">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                        <ColumnDefinition Width = "*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Column="0">
+                        <ImageButton x:Name="Inicio2" Source="house.svg" Clicked="Inicio2_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="1">
+                        <ImageButton x:Name="Locais2" Source="bank.svg" Clicked="Locais2_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="2">
+                        <ImageButton x:Name="Avaliacoes2" Source="star.svg" Clicked="Avaliacoes2_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="3">
+                        <ImageButton x:Name="Info2" Source="info.svg" Clicked="Info2_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                    <Grid Column="4">
+                        <ImageButton x:Name="Chat2" Source="telephone.svg" Clicked="Chat2_Clicked" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="28" />
+                    </Grid>
+
+                </Grid>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>
